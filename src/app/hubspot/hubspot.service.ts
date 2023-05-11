@@ -17,8 +17,8 @@ export class HubspotService {
 
     var formData = new URLSearchParams();
     formData.append("grant_type", "authorization_code");
-    formData.append("client_id", "63f70c98-1a07-47f1-85a8-1b3856408c45");
-    formData.append("client_secret", "6db3ef3f-3197-41d2-a79e-4d65837f3300");
+    formData.append("client_id", "client_id");
+    formData.append("client_secret", "client_secret");
     formData.append("redirect_uri", "http://localhost:4200");
     formData.append("code", code);
     
